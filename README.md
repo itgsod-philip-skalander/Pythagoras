@@ -38,7 +38,7 @@ Gör en `fork` av repot. Klona sen ner till din dator. Kom ihåg att checka in d
 ## Tips och länkar ##
 
 * Fundera på vilka variabler och funktioner som behövs
-* Läs om Pythagoras sats och den omvänd Pythagoras sats.
+* Läs om Pythagoras satsen och omvänd Pythagoras satsen.
 
 
 
