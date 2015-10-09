@@ -1,1 +1,35 @@
-<!-- Write your code here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pythagoras</title>
+</head>
+<body>
+    <form>
+        <p>Skriv in basen på din triangel</p>
+        <input id="bas" type="number"/>
+        <p>Skriv in höjden på din triangel</p>
+        <input id="höjd" type="number"/>
+        <p></p>
+        <input id="submit" type="button" onclick="pythagoras()"/>
+    </form>
+
+    <script>
+
+        function pythagoras(){
+            var bas = document.getElementById("bas").value;
+            var höjd = document.getElementById("höjd").value;
+            var a = bas;
+            var b = höjd;
+
+            var c = a*a + b*b;
+
+            c = Math.sqrt(c);
+            paragraph = document.createElement("p");
+            paragraph.innerHTML = c;
+            document.body.appendChild(paragraph);
+        }
+
+    </script>
+</body>
+</html>
